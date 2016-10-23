@@ -144,10 +144,10 @@ Tehdit ve zafiyetin kesistiği noktadır.
 ###TCP/IP => 
 internet üzerinde iletişimi sağlayan protokoller kümesidir.Ağlara dahil olan bilgisayarlar belirli kurallar çerçevesinde ağlara dahil olan cihazlar birbirleri ile iletişim kurabilirler.
 
-> İletişim kurabilmek için; 
-> Hostname (Bilgisayar Adı) 
-> Ip adresi (Cihazların birbiriyle iletişimde kullandıkları adrestir) 
-> Mac adresi (Ağ kartlarının sahip olduğu adrestir.6 oktetden oluşur.)
+#####İletişim kurabilmek için; 
+######Hostname (Bilgisayar Adı) 
+######Ip adresi (Cihazların birbiriyle iletişimde kullandıkları adrestir) 
+######Mac adresi (Ağ kartlarının sahip olduğu adrestir.6 oktetden oluşur.)
 
 ###Osi Katmanları 
 
@@ -183,30 +183,30 @@ pastebin bilgi toplama
 #Aktif Bilgi Toplama
 ##Nmap
 ###Hedef
-nmap 192.168.10.20 => Tek bir IP için tarama 
-nmap 192.168.10.13-25 =>  13 ile 20 ipleri dahil tarama
-nmap pausiber.xyz => Domain için gerçekleştirilecek tarama
-nmap –iL list.txt => list.txt adlı dosyadaki ipleri için tarama
+#####nmap 192.168.10.20 => Tek bir IP için tarama 
+#####nmap 192.168.10.13-25 =>  13 ile 20 ipleri dahil tarama
+#####nmap pausiber.xyz => Domain için gerçekleştirilecek tarama
+#####nmap –iL list.txt => list.txt adlı dosyadaki ipleri için tarama
 ###Syn Scan (Port Tarama)
-nmap -sS 192.168.10.20
-nmap –sS -F 192.168.10.13 => En yaygın 100 portu tarar. 
-nmap –sS –p1,100,102 192.168.10.12 => 1,100 ve 102. portları tarar.
-nmap –sS –p- 192.168.10.12 => 65535 portun hepsini tarar.
+#####nmap -sS 192.168.10.20
+#####nmap –sS -F 192.168.10.13 => En yaygın 100 portu tarar. 
+#####nmap –sS –p1,100,102 192.168.10.12 => 1,100 ve 102. portları tarar.
+#####nmap –sS –p- 192.168.10.12 => 65535 portun hepsini tarar.
 ###Versiyon
-nmap –sS -sV 192.168.10.20
+#####nmap –sS -sV 192.168.10.20
 ###İşletim Sistemi
-nmap –sS -O 192.168.5.20
+#####nmap –sS -O 192.168.5.20
 ###Hem versiyon hem işletim sistemi
-nmap –sS -A 192.168.5.20
+#####nmap –sS -A 192.168.5.20
 ###Script kullanma
-nmap –sC 192.168.23.22 => Bütün scriptler
-nmap –script “http*” 192.168.23.22 => http ile başlayan scriptler
+#####nmap –sC 192.168.23.22 => Bütün scriptler
+#####nmap –script “http*” 192.168.23.22 => http ile başlayan scriptler
 ###Çıktı verme
-.nmap –sS –oA filename 192.168.2.1 =>bütün formatlarda verir
+#####nmap –sS –oA filename 192.168.2.1 =>bütün formatlarda verir
 ###Update
-npmap-update
+#####nmap-update
 ###Daha Fazlası için
-nmap -h
+#####nmap -h
 #Exploit Aşaması
 ###Metasploit Framework
 
