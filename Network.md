@@ -174,9 +174,9 @@ ip2location.com
 whois.domaintools.com
 ###Shodan
 ###Google Dork(google hacking database hacking)
-Giriş panelleri tespiti
-indirilebilir dosyaa tespiti “filetype:pdf <domain-name> “
-pastebin bilgi toplama
+######Giriş panelleri tespiti
+######indirilebilir dosyaa tespiti “filetype:pdf <domain-name> “
+######pastebin bilgi toplama
 ###İş ilanları Tespiti
 ###Sosyal Medya Tespiti
 ###Kaynak kod ve geliştirici firma analizi
