@@ -168,7 +168,7 @@ the harvester -d <domain-name> -b all
 ###İndirilebilir dosya tespiti
 FOCA (windowsta çalışır)
 metagoofil (stabil çalışmayabilir.)
-###Lokasyon Tespiti
+###Location Tespiti
 ipinfo.io
 ip2location.com
 whois.domaintools.com
