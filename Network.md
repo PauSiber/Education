@@ -138,7 +138,7 @@ Bir sistemi doğası dışında çalıştırabilme kabiliyetine hacking denir.
 ###Tehtid =>
 Zarar verebilecek kisi, bilgi veya bot(?) 
 ###Zafiyet =>
-bir sistemin tasarımının dışında işleri yapabilmenizi sağlayan,tehtid ve risk oluşturabilicek ve karşı tarafta olmaması gereken problem(bug)lerdir.
+bir sistemin tasarımının dışında işleri yapabilmenizi sağlayan,tehtid ve risk oluşturabilecek ve karşı tarafta olmaması gereken problem(bug)lerdir.
 ###Risk =>    
 Tehdit ve zafiyetin kesistiği noktadır. 
 ###TCP/IP => 
