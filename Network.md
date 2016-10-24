@@ -1,6 +1,6 @@
 
 
-#Linux 55
+#Linux 50,5
 
 
 ###man 
