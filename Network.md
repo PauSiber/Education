@@ -97,9 +97,9 @@ Dosya,klasör silmeye yarar.
 
 => “rm -r dosya1 “  -> Dosyanın içindeki herşeyi siler.
 
-###exit && lagout 
+###exit && logout 
 
-Terminalden çıkamayı sağlar.
+Terminalden çıkmayı sağlar.
 
 ###grep 
 
