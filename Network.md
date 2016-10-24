@@ -157,7 +157,7 @@ ping
 nslookup
 whois
 ipinfo.io
-###Subdomain tiespiti
+###Subdomain tespiti
 fierce -dns <domain-name>
 dnsmap <domain-name>
 dig -x <ip>
