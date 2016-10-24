@@ -120,17 +120,17 @@ Sanal makineler için yalıtılmış bir ağ ortamı sunar. İnternetee çıkı�
 network ayarını ve ip adresini verir.
 #Servisler
 ####service apache2 start|stop|restart 
-=> apache servisi başlat|durdur|yenidenbaşlat
+=> apache servisi başlat|durdur|yeniden başlat
 
 ####service ssh start|stop|restart 
-=> ssh servisi başlat|durdur|yenidenbaşlat
+=> ssh servisi başlat|durdur|yeniden başlat
 
 ####service vsftpd start|stop|restart 
-=> ftp servisi başlat|durdur|yenidenbaşlat
+=> ftp servisi başlat|durdur|yeniden başlat
 
 #GENEL TERİMLER
 ###Exploit =>
-açık bulduk o acıgı kullanarak sısteme bızı sokacak arac
+açık bulduk o acıgı kullanarak sisteme bizi sokacak araç
 ###Payload =>
 exploit kullandık ıcerdeyız sımdı ne yapıcaz sılmek atese vermek dınlemek bunlar payload lardır.
 ###Hacking=>
